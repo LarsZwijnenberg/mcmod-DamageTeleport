@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "damageteleport",
+  "version": "${version}",
+  "name": "Damage Teleport",
+  "description": "Teleports the player between 5 and 50 blocks away every time they take damage.",
+  "authors": ["ModMimic"],
+  "contact": {
+    "sources": "https://github.com/ModMimic/mcmod-DamageTeleport"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.modmimic.damageteleport.DamageTeleportMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "1.21.1",
+    "fabric-api": "*"
+  }
+}
